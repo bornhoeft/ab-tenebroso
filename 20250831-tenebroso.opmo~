@@ -36,11 +36,9 @@ dark or black background.
 
 ;; import of the score
 ;; Preview with cmd-2
-(setf 
- material
- (musicxml-to-omn
-  ;; musicxml file is in folder "musicxml"
-  "~/Documents/werke/090-Schemen/sco/schubert-D810-2.musicxml"))
+(setf material
+      (musicxml-to-omn 
+       "~/Documents/werke/090-Blickwinkel/sco/schubert-D810-2.musicxml"))
 
 ;; assing each voice to a variable
 (assign-variable 'voc material)
